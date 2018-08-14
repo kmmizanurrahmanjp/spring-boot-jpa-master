@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import xyz.mizan.springbootjpacrudapi.employee.entity.Employee;
 
 @Repository
-public interface EmployeeRepo extends JpaRepository<Employee, Integer>{
+public interface EmployeeRepository extends JpaRepository<Employee, Integer>{
 
 }
